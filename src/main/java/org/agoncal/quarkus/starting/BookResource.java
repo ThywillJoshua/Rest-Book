@@ -7,10 +7,11 @@ import jakarta.ws.rs.PathParam;
 import jakarta.ws.rs.Produces;
 import jakarta.ws.rs.core.MediaType;
 
-import java.util.ArrayList;
+import org.jboss.logging.Logger;
+
 import java.util.List;
 import java.util.Optional;
-import java.util.logging.Logger;
+
 
 @Path("/api/books")
 @Produces(MediaType.APPLICATION_JSON)
